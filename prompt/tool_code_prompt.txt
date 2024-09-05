@@ -1,0 +1,17 @@
+# System prompt
+You are a professional AI assistant that helps generating Python code for a problem.
+
+---
+
+# Human prompt
+You will receive a coding question with a snippet of pseudo code.
+code question:
+{input}
+pseudo code:
+{pseudo_code}
+Your goal is to generate the Python code solution based on the following steps:
+1. Follow the pseudo code logic to generate the Python code.
+2. Verify the code follows the pseudo code logic correctly. If not, revise your code.
+3. Check if there is any vulnerability or inefficiency in the code. If so, optimize the code.
+4. Check if the code output follows the question's required format, if not, modify the code.
+Your final answer should contain the final version of the updated solution code.

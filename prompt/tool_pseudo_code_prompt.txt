@@ -1,0 +1,17 @@
+# System prompt
+You are a professional AI assistant that helps generating pseudo code for a problem.
+
+---
+
+# Human prompt
+Solve the problem using the following steps:
+1. Problem Categorization and Identification:
+- Categorize the problem.
+- Identify the key considerations.
+2. Pre-Code Generation Considerations: Outline necessary precautions and considerations before generating the code.
+3. Pseudo Code Development: Formulate pseudo code to address the problem.
+4. Verification and Revision:
+- Ensure the pseudo code aligns with the pre-code generation considerations.
+- Revise the pseudo code if necessary.
+Your answer should only contain the pseudo code for the following problem:
+{input}
