@@ -1,0 +1,147 @@
+input_question,output_answer,level
+"What is cybersecurity, and why is it important?","Cybersecurity protects computer systems, networks, and data from theft, damage, or unauthorized access. It's important to safeguard sensitive information, maintain privacy, prevent financial losses, and protect critical infrastructure from cyber threats.",beginner
+"Define the terms Virus, Malware, and Ransomware.","Virus: A program that replicates itself and spreads to other files or systems, often causing harm.
+Malware: A broader term encompassing any malicious software that disrupts or gains unauthorized access to computer systems.
+Ransomware: A malicious software encrypting files or computer systems and requesting a ransom for their decryption.",beginner
+"Explain the difference between a Threat, Vulnerability, and Risk in cybersecurity.","Threat: Any potential danger or harmful event that can exploit vulnerabilities and negatively impact security.
+Vulnerability: Weaknesses or gaps in security measures that threats can exploit.
+Risk: The probability of a threat capitalizing on a vulnerability and the potential consequences or damage it may inflict.",beginner
+What is Phishing? Provide an example.,"Phishing: A cyberattack in which malicious actors employ deceptive emails or messages to deceive individuals into disclosing sensitive information.
+Example: An email claiming to be from a bank, requesting the recipient to provide their login credentials by clicking a link that leads to a fake website.",beginner
+How do firewalls protect network security?,"Firewalls serve as protective barriers, overseeing and screening both inbound and outbound network traffic in accordance with established security regulations.
+They block unauthorized access and help prevent malicious data from entering or leaving a network.",beginner
+What is a VPN and why is it used?,"A Virtual Private Network encrypts and secures internet connections, ensuring privacy and anonymity.
+It protects data from eavesdropping, accesses restricted content, and enhances public Wi-Fi security.",beginner
+Explain the concept of a secure Password.,"A secure password is complex, lengthy, and difficult to guess.
+It comprises a combination of uppercase and lowercase letters, numbers, and special characters, with the requirement that this combination should be distinct for every individual account.",beginner
+What are the common techniques for securing a computer network?,"Techniques include using strong passwords, regular updates and patch management, implementing firewalls, using intrusion detection systems, and conducting security audits.
+",beginner
+"What is two-factor authentication, and why is it important?","Two-factor authentication enhances security by necessitating users to furnish two distinct forms of verification, typically a password and a temporary code, thereby bolstering protection.
+It's important because even if a password is compromised, unauthorized access is prevented without the second factor.",beginner
+Define the terms Encryption and Decryption.,"Encryption: Converting plaintext data into a coded format to protect it from unauthorized access.
+Decryption: Converting encrypted data back into its original, readable form.",beginner
+What is SSL encryption?,"SSL (Secure Sockets Layer) encryption is a protocol that ensures secure data transmission between a user's web browser and a website server, protecting data during transit.",beginner
+What is the difference between IDS and IPS?,"IDS (Intrusion Detection System): Monitors network traffic and generates alerts when suspicious activity is detected.
+IPS (Intrusion Prevention System): Not only detects but also actively blocks or prevents suspicious network activity.",beginner
+Explain what a security audit Is.,"A security audit systematically evaluates an organization's information systems and security policies to assess their effectiveness, identify vulnerabilities, and recommend improvements.",beginner
+What steps would you take if you discovered a security breach?,"Isolate affected systems, contain the breach, notify relevant parties, investigate the incident, remediate vulnerabilities, and implement measures to prevent future breaches.",beginner
+What is social engineering? Give an example.,"Social engineering manipulates individuals to disclose confidential information or perform actions for malicious purposes.
+Example: Pretending to be a trusted colleague and asking for login credentials over the phone.",beginner
+What are cookies in a web browser?,"Cookies are stored by websites on a user's device. They are used to track user preferences, session information, and provide a personalized browsing experience.",beginner
+What is a DDoS attack and how does it work?,"A Distributed Denial of Service (DDoS) attack inundates a target server or network with excessive traffic originating from numerous sources, making it inaccessible to genuine users",beginner
+Explain what a security policy is.,"A security policy comprises a collection of formally documented regulations, recommendations, and protocols that delineate an organization's methods to safeguard its information, assets, and technological resources.
+",beginner
+What is the difference between symmetric and asymmetric encryption?,"Symmetric Encryption uses a similar key for encryption and decryption.
+Asymmetric Encryption employs a pair of keys, one public and one private. Data that is encrypted with one key can only be deciphered using the complementary key.",beginner
+How can you prevent a Man-In-The-Middle attack?,"Use secure communication protocols, verify digital certificates, and avoid public Wi-Fi for sensitive transactions. Implementing strong encryption also helps.
+",beginner
+What is a honeypot in cybersecurity?,"A honeypot is a decoy system or network designed to attract attackers. It allows security professionals to study their tactics, techniques, and motivations.
+",beginner
+Explain the concept of a digital signature.,"A digital signature employs cryptographic methods to confirm the genuineness and unaltered state of a digital document or message, assuring both the sender's authenticity and the content's integrity.
+",beginner
+What is a brute force attack?,"It involves attackers employing a trial-and-error approach to find a password or encryption key by systematically testing every conceivable combination until they discover the correct one.
+",beginner
+What are the common cyber threats today?,"Common threats include malware, ransomware, phishing, DDoS attacks, insider threats, and zero-day vulnerabilities.
+",beginner
+What is the role of patch management in maintaining security?,"Patch management regularly applies updates and patches to software and systems to fix security vulnerabilities. It's crucial for preventing the exploitation of known weaknesses by attackers.
+",beginner
+Explain the concept of Public Key Infrastructure (PKI).,"PKI is a system of cryptographic techniques that enables secure communication over an insecure network. A public key and a private key pair are employed for various cryptographic operations such as encryption, decryption, the creation of digital signatures, and the validation of public keys through the use of certificate authorities (CAs) to ensure their authenticity.
+",intermediate
+What are the key elements of a strong security policy?,"A strong security policy includes elements like access control, encryption, regular updates, user training, incident response plans, and compliance with relevant regulations.
+",intermediate
+How does a rootkit work and how would you detect it?,"A rootkit is malicious software that gives attackers unauthorized access to a computer or network. Detection involves using specialized anti-rootkit tools and monitoring for suspicious system behavior.
+",intermediate
+Explain cross-site scripting and SQL injection.,"XSS involves injecting malicious scripts into web applications, which can compromise user data. SQL Injection exploits vulnerabilities in SQL queries to manipulate a database. Both are forms of web application vulnerabilities.
+",intermediate
+What is a zero-day vulnerability?,"It refers to a security vulnerability present in software or hardware that is undisclosed to the vendor and lacks an existing solution. This loophole can be leveraged by malicious actors before a remedy is created.
+",intermediate
+Discuss the ISO 27001/27002 standards.,"It is a framework for information security management systems (ISMS), while ISO 27002 provides guidelines for implementing security controls and practices within an organization.
+",intermediate
+How do threat detection systems work?,"Threat detection systems monitor network traffic and system logs to identify suspicious activities or potential security threats using predefined rules and machine learning algorithms.
+",intermediate
+Explain the principles of ethical hacking.,"Ethical hacking involves testing systems and networks for vulnerabilities to strengthen security. Principles include obtaining proper authorization, maintaining confidentiality, and responsible disclosure of findings.
+",intermediate
+What are the different types of network security?,"Network security includes perimeter security, firewall protection, intrusion detection systems, VPNs, and network segmentation to safeguard data and resources.
+",intermediate
+Discuss the concept of risk assessment in cybersecurity.,"Risk assessment in cybersecurity involves identifying, assessing, and prioritizing potential threats and vulnerabilities to make informed decisions on security measures.
+",intermediate
+"What is incident response, and how is it managed?","Incident response encompasses a methodical strategy for handling and diminishing security incidents, encompassing key phases such as preparation, detection, containment, eradication, recovery, and knowledge acquisition.
+",intermediate
+Explain the principle of least privilege.,"The Least Privilege principle limits the access of users and processes to the bare minimum required for their specific tasks, thereby minimizing the potential for unauthorized actions.
+",intermediate
+How does Secure Socket Layer (SSL) work?,"SSL protocol ensures secure data transmission between web browsers and servers using encryption, authentication, and data integrity checks.
+",intermediate
+What is network sniffing?,"Network sniffing is the practice of intercepting and analyzing network traffic to gather information, potentially for malicious purposes. It can be used for monitoring or attacks.
+",intermediate
+Discuss the importance of disaster recovery planning in cybersecurity.,"Disaster recovery planning encompasses the proactive preparation and responsive actions required to safeguard against data loss or system failures, ultimately ensuring the uninterrupted operation of a business.
+",intermediate
+What is a Security Information and Event Management (SIEM) System?,"SIEM systems gather, correlate, and scrutinize security-relevant data from diverse origins to identify and react to security events.
+",intermediate
+How do you manage cryptographic keys?,"Cryptographic keys should be securely generated, stored, rotated, and protected to maintain the confidentiality and integrity of encrypted data.
+",intermediate
+What are the common methods for secure data disposal?,"Common methods include data shredding, overwriting, degaussing, and physical destruction to ensure that sensitive information cannot be recovered from storage media.
+",intermediate
+Explain the concept of endpoint security.,"Endpoint security focuses on securing individual devices (endpoints) like computers and mobile devices by using antivirus, anti-malware, and intrusion detection systems.
+",intermediate
+Discuss the role of artificial intelligence in cybersecurity.,"AI is used for threat detection, pattern recognition, and anomaly detection to improve cybersecurity defenses and automate incident response.
+",intermediate
+What are the challenges in cloud security?,"Challenges include data breaches, compliance, data loss prevention, and securing shared responsibility models in cloud environments.
+",intermediate
+How do penetration testing and vulnerability assessments differ?,"Penetration testing replicates real-world attack scenarios to discover vulnerabilities, whereas vulnerability assessments concentrate on scanning systems to detect recognized weaknesses.
+",intermediate
+What is a Security Operations Center (SOC)?,"SOC is a centralized team responsible for real-time monitoring, detecting, and responding to security incidents.
+",intermediate
+Discuss the importance of compliance in cybersecurity.,"Compliance ensures that an organization follows relevant laws and regulations, helping protect data and avoid legal consequences.
+",intermediate
+What Is multi-factor authentication and how does it enhance security?,"MFA bolsters security by necessitating users to furnish multiple authentication factors, typically a combination of something they possess (e.g., a mobile token) and something they are aware of (e.g., a password).
+",intermediate
+Discuss the challenges and strategies of securing IoT devices.,"Challenges: Device diversity, limited resources, and vulnerabilities. 
+Strategies: Regular updates, strong authentication, network segmentation, and IoT security frameworks.",advanced
+Explain Advanced Persistent Threats (APT).,"APTs are long-term, targeted cyberattacks by skilled adversaries. They use stealth, persistence, and sophisticated techniques to breach systems.
+",advanced
+Discuss the role of blockchain in cybersecurity.,"Blockchain can enhance security through decentralized consensus, data integrity, and immutable records. It's used in secure transactions and identity management.
+",advanced
+"How do you approach securing a large, distributed network?","Employ segmentation, strong access controls, regular audits, and network monitoring to protect against threats across a vast network.
+",advanced
+What is the importance of forensics in cybersecurity?,"Forensics helps investigate incidents, gather evidence, and understand attack vectors, aiding in incident response and legal actions.
+",advanced
+Discuss the intricacies of network protocol security.,"Secure protocols are essential for data confidentiality and integrity. Use encryption and authentication, and keep protocols updated to mitigate risks.
+",advanced
+How do you manage security in a DevOps environment?,"Implement security into the development pipeline with automation, continuous monitoring, and collaboration between development and security teams.
+",advanced
+Explain the concept of micro-segmentation in network security.,"Micro-segmentation isolates network segments for finer control and security. It limits the lateral movement of threats within a network.
+",advanced
+Discuss the challenges of securing big data environments.,"Challenges include data volume and diversity. Strategies involve encryption, access controls, monitoring, and data classification.
+",advanced
+What are your strategies for managing supply chain risks in cybersecurity?,"Assess third-party vendors, enforce security standards, conduct audits, and maintain a supply chain risk management program.
+",advanced
+Explain the concept of container security.,"Secure containerized applications with image scanning, access controls, and runtime protection to prevent vulnerabilities.
+",advanced
+How do you ensure compliance with international data protection laws (like GDPR)?,"Implement data protection policies, conduct privacy impact assessments, and ensure compliance with consent and data subject rights.
+",advanced
+Discuss the future trends in cybersecurity.,"Trends include AI/ML for threat detection, zero-trust architecture, cloud security, and increased focus on IoT and 5G security.
+",advanced
+What are the ethical considerations in cybersecurity?,"Ethical concerns involve privacy, responsible disclosure, and avoiding harm to individuals and organizations.
+",advanced
+How do you measure the effectiveness of a cybersecurity program?,"Use metrics like risk assessments, incident response times, and security posture evaluations to measure program effectiveness.
+",advanced
+Discuss the challenges in securing wireless networks.,"Challenges include rogue access points and eavesdropping. Solutions include strong encryption, network monitoring, and user education.
+",advanced
+What is quantum cryptography and its implications for security?,"Quantum cryptography uses quantum mechanics to secure communication. It has the potential to resist quantum attacks, ensuring long-term security.
+",advanced
+Explain the concept of federated identity management.,"Federated identity allows users to access multiple systems with a single set of credentials, enhancing convenience and security.
+",advanced
+What are the latest developments in cybersecurity threats?,"Threats evolve with new attack vectors, such as supply chain attacks, ransomware, and AI-driven attacks.
+",advanced
+How do you manage security in a hybrid cloud environment?,"Secure hybrid cloud environments with consistent security policies, identity management, and data protection across on-premises and cloud resources.
+",advanced
+Discuss the impact of artificial intelligence on cybersecurity threats.,"AI can automate threat detection, enhance incident response, and improve security analytics. However, it can also be exploited by attackers.
+",advanced
+What is the role of machine learning in detecting cyber threats?,"ML algorithms analyze large datasets to detect anomalies and patterns associated with cyber threats, enabling proactive security measures.
+",advanced
+Explain the concept of threat intelligence and its application.,"Threat intelligence is the collection and analysis of data to identify and respond to emerging threats, enabling proactive cybersecurity.
+",advanced
+What strategies would you implement for securing mobile applications?,"Secure mobile apps with encryption, code reviews, secure APIs, and regular updates to protect against vulnerabilities and data breaches.
+",advanced
+Discuss the challenges and solutions in endpoint detection and response (EDR).,"EDR solutions monitor and respond to endpoint threats in real-time, providing visibility and incident response capabilities.
+",advanced
