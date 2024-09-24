@@ -9,6 +9,8 @@ CyberMentor is an innovative framework designed to address key challenges faced 
 
 This project integrates Retrieval-Augmented Generation (RAG) techniques within an agentic workflow to intelligently allocate student needs to various AI tools. By doing so, CyberMentor ensures that students receive tailored guidance, skill-based training, and mentoring support—precisely when and how they need it. The system also includes multilingual support to reduce barriers for non-native English speakers and offers flexible, adaptive resources to meet the diverse needs of non-traditional students.
 
+Please cite our research paper: *AI Powered Educational Tools: Addressing the Diverse Needs of Students in Cybersecurity*
+
 ## Key Features
 - Personalized Learning: Tailored curriculum engagement and AI-generated content recommendations.
 - AI-Driven Mentorship: Automated mentoring system designed to combat student isolation and provide timely support.
@@ -65,3 +67,4 @@ v 1.0
 ```
 
 Since 6/2024
+T. Wang
