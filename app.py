@@ -415,7 +415,7 @@ def _get_session_id():
     session_id = get_script_run_ctx().session_id
     return session_id
 
-st.title("Welcome to MentorMavericks!")
+st.title("Welcome to CyberMentor!")
 
 # Brief introduction with a call to action
 st.markdown("""
