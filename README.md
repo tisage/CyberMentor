@@ -45,7 +45,8 @@ OPENAI_API_KEY=sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ### Install the Required Packages
 Install the necessary packages using the following command:
 ```bash
-pip install python-dotenv langchain langchain-openai langchain-experimental langchainhub langgraph openai faiss-cpu pypdf streamlit
+pip install -r requirements.txt
+
 ```
 
 ### Run the Application
