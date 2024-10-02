@@ -5,12 +5,10 @@
 </p>
 
 ## Overview
-CyberMentor is an innovative framework designed to address key challenges faced by college students in cybersecurity education. Leveraging Generative Artificial Intelligence (AI) and Large Language Models (LLMs), CyberMentor aims to enhance accessibility, engagement, and academic success by providing personalized, contextually relevant learning experiences.
+`CyberMentor` is a Generative Large Language Model (LLM)-based solution that aims to improve accessibility and personalization in the field of cybersecurity education. By analyzing common pain points in the learning process, this framework facilitates knowledge acquisition, delivers contextually relevant learning experiences, and offers career preparation through targeted, skill-based guidance. 
 
-This project integrates Retrieval-Augmented Generation (RAG) techniques within an agentic workflow to intelligently allocate student needs to various AI tools. By doing so, CyberMentor ensures that students receive tailored guidance, skill-based training, and mentoring support—precisely when and how they need it. The system also includes multilingual support to reduce barriers for non-native English speakers and offers flexible, adaptive resources to meet the diverse needs of non-traditional students.
-
-Please cite our research paper (pending): 
-*AI Powered Educational Tools: Addressing the Diverse Needs of Students in Cybersecurity*
+This repository is open-source under the MIT license (see the License section for details). If you use this work, please make sure to properly cite our related research publication:
+*AI Powered Educational Tools: Addressing the Diverse Needs of Students in Cybersecurity (under-review)*
 
 ## Key Features
 - Personalized Learning: Tailored curriculum engagement and AI-generated content recommendations.
@@ -26,11 +24,11 @@ Please cite our research paper (pending):
 - `prompt/`: Houses the prompts used for the LLMs to guide their outputs.
 - `eval/`: Evaluation data and results
 - `app.py`: A Streamlit-based web application (localhost)
-    - Supports chat history (Memory)
+    - LLM-based Agentic Mentoring System
     - Chatbot with integrated Agent, Knowledge Base, and Tools
-    - Manages multiple sessions
-    - Uses caching to speed up response times
     - Support Source of RAG
+    - Supports chat history (Memory)
+    - Manages multiple sessions
 
 ## Installation
 ### Download the Repository
@@ -65,7 +63,7 @@ The default port number is set to `8080`. If this port is already in use, you ca
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ```
-v 1.0
+v 1.01
 ```
 
 Since 6/2024
