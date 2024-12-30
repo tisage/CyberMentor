@@ -42,6 +42,8 @@ OPENAI_API_KEY=sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
 ### Install the Required Packages
+Tesed with Python 3.12.3
+
 Install the necessary packages using the following command:
 ```bash
 pip install -r requirements.txt
